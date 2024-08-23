@@ -1,4 +1,5 @@
 import React from "react";
+import Cart from "../cart";
 interface Props{
     aba: string;
 }
@@ -27,6 +28,10 @@ const Navbar = ({aba}:Props) => {
 
      <a href="/fale-conosco">Fale Conosco</a>
 
+    </li>
+
+    <li>
+    <Cart />
     </li>
 
    </ul>
